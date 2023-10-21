@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, rgb(12, 7, 113) 0%, rgb(65, 1, 85) 35%, rgb(46, 2, 0) 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+form{
+    width: 35%;
+    height: 640px;
+    background-color: white;
+    padding: 39px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+
+}
+
+
+
+#formPemesanan h1{
+    font-size: 25px;
+    text-align: center;
+}
+
+.btn-primary{
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 932px){
+    form{
+        width: 37%;
+    }
+}
+
+@media only screen and (max-width: 883px){
+    form{
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 659px){
+    form{
+        width: 70%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 478px){
+    form{
+        width: 85%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 398px){
+    form{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 341px){
+    form{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
